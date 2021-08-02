@@ -817,7 +817,7 @@ font-weight: 500;
 
 
     .conbtn{
-       background: #99080f;
+       background: #ef3e46;
        color: white;
     margin-top: 20px;
     padding: 10px 30px;
@@ -828,8 +828,8 @@ font-weight: 500;
     }
     .conbtn:hover{
         background: transparent;
-        border-color: #99080f;
-        color: #99080f;
+        border-color: #ef3e46;
+        color: #ef3e46;
     }
 
 
@@ -913,6 +913,8 @@ footer a{
 /* about page */
 .banner{
 background: url(images/about-bg.webp);
+  /* background: url(https://aiwaapp.net/cache/media_cache/87d8a85187070c8d89f984603cdefcd6.jpg); */
+
 background-position: center;
 background-size: cover;
 height: 65vh;
@@ -971,9 +973,11 @@ h4{
  .col-lg-3{
     width: 24%!important;
 }
-.col-sm-12{
-    width:100%!important;
+.h30{
+    height: 300px;
 }
+
+
 
 /* contact page */
 
@@ -1021,12 +1025,12 @@ height: 30px;
 border: 1px solid;
 text-align: center;
 position: relative;
-top: 45px;
+top: 36px;
 left: -30px;
 line-height: 30px;
 }
 .follow{
-margin-top: 40px;
+margin-top: 10px;
 
 }
 .ficon{
@@ -1039,17 +1043,17 @@ margin-top: 40px;
     /* padding: 0 60px; */
 }
 .ficon .icon{
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     border-radius: 50%;
-    line-height: 40px;
-    background-color:#614a3d ;
+    line-height: 30px;
+    background-color:#ef3e46 ;
 }
 .icon i{
     color:#fff;
 }
 .ficon .icon:hover{
-    background-color: steelblue;
+    background-color: #b8111a;
 }
 
 

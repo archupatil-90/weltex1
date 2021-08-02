@@ -82,14 +82,23 @@
 .footer-bar .menu ul{
     padding-left: 0!important;
 }
+.conbtn{
+    padding: 10px;
+}
 
 /* product pge */
 .col3{
     width: 100%;
     margin-bottom: 10px;
 }
+.col-lg-3{
+    width: 100%!important;
+}
 button{
     border-right: none!important;
+}
+.h30{
+    height: auto;
 }
 /* contactpage */
 .map .con-box {
@@ -119,10 +128,17 @@ button{
 /* slider */
 
 .mySlides {display: none;
+width: 500px;
+margin: auto;
     height: 300px;
+    text-align: center;
+    
 }
- .myslides img {vertical-align: middle;
-/* height: 50vh; */
+ .slideshow-container img {vertical-align: middle;
+    width: 100%;
+height: 48vh;
+box-shadow: 0 0 5px black;
+
  }
 
 /* Slideshow container */
@@ -130,15 +146,18 @@ button{
   max-width: 1000px;
   position: relative;
   margin: auto;
+  /* background: url(https://aiwaapp.net/cache/media_cache/87d8a85187070c8d89f984603cdefcd6.jpg); */
+  
 }
 
 /* Caption text */
 .text {
-  color:#717171;
+  color:#ef3e46;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 20px;
+  left: 0;
   width: 100%;
   text-align: center;
 }
